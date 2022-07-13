@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Three Star Media</title>
+</head>
+
+<body>
+  <header class="bg-dark">
+    <!--
+      Change the expand-lg to -md 
+      Change to navbar-dark bg-dark
+    -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <!-- change container-fluid to container -->
+      <div class="container-xl">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Three Star Media Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" aria-current="page" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" aria-current="page" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" aria-current="page" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <!-- Remove me-2 margin 
+              Add rounded-0-->
+            <input class="form-control rounded-0" type="search" placeholder="Search" aria-label="Search">
+            <!-- Add btn-outline-primary rounded-0 -->
+            <button class="btn btn-outline-primary rounded-0" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- **** Banner Section **** -->
+    <section class="banner py-5">
+      <div class="container banner-info bg-dark text-light bg-opacity-75 pt-4 pb-2">
+        <h1 class="display-1">Welcome to Three Star Media</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus harum voluptatum id vitae eligendi delectus eos, facere fugiat nemo repudiandae ullam, ipsum illo mollitia quasi maiores eum et sit.</p>
+        <a href="#" class="btn btn-primary text-dark">Connect with us <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+          </svg></a>
+      </div>
+    </section>
+    <!-- **** About Us Section **** -->
+    <section class="bg-secondary py-4">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-sm">
+            <img src="images/about-us.jpg" alt="image of the office ping pong table" class="img-fluid">
+          </div>
+          <div class="col-sm">
+            <h2 class="display-4 fw-bold">About Us</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa nihil pariatur dolorum voluptatum corporis omnis laudantium error eum sequi, animi in consectetur quaerat tenetur adipisci, eaque cum dolore quam?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde similique autem velit adipisci cum quam rerum hic eaque, aspernatur commodi ducimus exercitationem iste nemo perferendis alias culpa ipsa porro at.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- **** Services Section **** -->
+    <section class="container-xl my-4">
+      <h2 class="display-4 fw-bold">Our Services</h2>
+      <div class="row gy-4">
+        <!-- add px-0 remove style -->
+        <div class="col-md-6">
+          <div class="card bg-secondary rounded-0 border-0 h-100">
+            <img src="images/digital.jpg" class="card-img-top" alt="user on a laptop and smartphone">
+            <div class="card-body">
+              <h5 class="card-title">Digital Transformation</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <!-- add btn-dark text-center d-block  p-4 rounded-0 -->
+              <a href="#" class="btn btn-dark text-center d-block p-4 rounded-0">Digital Plans <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card bg-secondary">
+            <img src="images/marketing.jpg" class="card-img-top" alt="laptop on a glass table">
+            <div class="card-body">
+              <h5 class="card-title">Marketing</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-dark text-center d-block p-4 rounded-0">Marketing Plans <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-secondary">
+            <img src="images/video.jpg" class="card-img-top" alt="laptop on a glass table">
+            <div class="card-body">
+              <h5 class="card-title">Video Production</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-dark text-center d-block p-4 rounded-0">Video Plans <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-secondary">
+            <img src="images/web.jpg" class="card-img-top" alt="laptop on a glass table">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-dark text-center d-block p-4 rounded-0">Web Plans <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-secondary">
+            <img src="images/print.jpg" class="card-img-top" alt="laptop on a glass table">
+            <div class="card-body">
+              <h5 class="card-title">Print</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-dark text-center d-block p-4 rounded-0">Print Plans <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- **** Vision Section **** -->
+    <section class="vision bg-dark text-light py-4 my-4">
+      <div class="container-xl">
+        <h2>Our Vision</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nobis quas, eligendi possimus id quibusdam rem! Iusto rem placeat, dolor accusamus vitae suscipit consequuntur eum quidem consectetur porro sed saepe!</p>
+        <a href="#" class="btn btn-dark border border-primary p-4 rounded-0">Learn More
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+          </svg>
+        </a>
+      </div>
+    </section>
+    <!-- **** Our Team **** -->
+    <section class="container-xl">
+      <h2>Our Team</h2>
+      <!-- using the row-cols from responsive -->
+      <div class="row row-cols-lg-2 g-0">
+        <div class="bg-secondary">
+          <img src="images/john.jpg" alt="john" class="img-fluid w-100">
+        </div>
+        <div class="bg-secondary px-2 py-4">
+          <h3>John Doe</h3>
+          <h6 class="border-bottom border-4 border-primary">CEO and Co-Owner</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, fuga perferendis. Alias, illum dolor. Assumenda quam aspernatur reprehenderit, voluptatem sapiente esse doloribus nulla quia, porro molestias obcaecati, praesentium ullam minus.</p>
+        </div>
+        <div class="bg-secondary order-lg-1">
+          <img src="images/bob.jpg" alt="bob" class="img-fluid w-100">
+        </div>
+        <div class="bg-secondary px-2 py-4">
+          <h3>Bob Rite</h3>
+          <h6 class="border-bottom border-4 border-primary">CFO and Co-Owner</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, fuga perferendis. Alias, illum dolor. Assumenda quam aspernatur reprehenderit, voluptatem sapiente esse doloribus nulla quia, porro molestias obcaecati, praesentium ullam minus.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-dark text-primary py-4 mt-4">
+    <div class="container-xl">
+      <p>&copy; Copyright, Three Star Media, 2021</p>
+      <p>All images taken from Unspash</p>
+    </div>
+  </footer>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
